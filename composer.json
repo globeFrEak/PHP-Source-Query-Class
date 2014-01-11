@@ -2,6 +2,7 @@
     "name": "gries/php-source-query-class",
     "description": "Forked Repo to improve Mincraft-Support",
     "license": "C-BY-NC-SA-3.0",
+    "minimum-stability": "dev",
     "autoload": {
         "classmap": ["/"]
     }
