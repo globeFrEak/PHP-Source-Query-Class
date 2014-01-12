@@ -151,8 +151,13 @@
 		{
 			$this->Connected = false;
 			
-			$this->Socket->Close( );
-			$this->Rcon->Close( );
+			if ($this->Socket) {
+				$this->Socket->Close();
+			}
+			
+			if ($this->Rcon) {
+				$this->Rcon->Close();
+			}
 		}
 		
 		/**
